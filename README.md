@@ -4,11 +4,11 @@
 This repository contains code for univariate time series modeling of hourly energy consumption data (in Megawatts) from PJMs Eastern Interconnection Grid. The aim of this project is to build a model that can accurately forecast hourly energy consumption (in Megawatts) based on historical data.
 
 <p align="center">
-  <img src="Images/PJM_Energy_Consumption.png" alt="Alt text" width="500" height="300">
+  <img src="Images/PJM_Energy_Consumption.png" alt="Alt text" width="800" height="500">
 </p>
 
 <p align="center">
-  <img src="Images/Hourly_Average_Energy_Consumption.png" alt="Alt text" width="500" height="300">
+  <img src="Images/Hourly_Average_Energy_Consumption.png" alt="Alt text" width="800" height="500">
 </p>
 
 ## Dataset
@@ -29,11 +29,11 @@ The following steps were followed to perform the modelling:
 The model achieved good accuracy on the validation data, with an MAE of 190 and an RMSE of 249. The forecasted values for the next Z hours are available in the "models" folder of this repository.
 
 <p align="center">
-  <img src="Images/testing_set_forecast.png" alt="Alt text" width="500" height="300">
+  <img src="Images/testing_set_forecast.png" alt="Alt text" width="800" height="500">
 </p>
                       
 <p align="center">
-  <img src="Images/30_Days_Forecast.png" alt="Alt text" width="500" height="300">
+  <img src="Images/30_Days_Forecast.png" alt="Alt text" width="800" height="500">
 </p>
       
 
